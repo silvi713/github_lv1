@@ -1,0 +1,22 @@
+.dodavanjeUTablicu{
+	color:red;
+     
+}
+
+#tablicaPodataka thead{
+    margin-top: 20px;
+    
+    background-color: black;
+    color:white;
+
+}
+
+#tablicaPodataka tbody
+{
+    margin-top: 20px;
+    
+    background-color: grey;
+    color:white;
+    
+}
+
