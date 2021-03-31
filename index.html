@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>GitHub stranica</title>
@@ -19,13 +20,16 @@
 
   <button type="submit" class="dodavanjeUTablicu" onclick="DodajPodatke()">Dodaj podatke</button>
 </div>
-  <div>
+<div>
+  <labe>Pretraga: </labe>
+  <input type="text" id="myInput" onkeyup="Pretrazivanje()" placeholder="Pretraži.." title="Type in a name"><br>
+</div>
+
+
+<div>
+  
   <table id="tablicaPodataka" >
-<thead>
-    <th>Predmet</th>
-    <th>Semestar</th>
-    <th>ECTS bodovi</th>
-</thead>    
+  
   <tr>
   </tr>
  
