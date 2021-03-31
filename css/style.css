@@ -20,3 +20,5 @@
     
 }
 
+tr{cursor: pointer; transition: all .25s ease-in-out}
+            .selected{background-color: green; font-weight: bold; color: #fff;}
